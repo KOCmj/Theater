@@ -1,0 +1,245 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(72, 25, 25);
+    transition: all .5s ease;
+}
+
+.sidebar header {
+    font-size: 21px;
+    color: rgb(255, 204, 204);
+    text-align: center;
+    line-height: 70px;
+    background-color: rgb(105, 35, 35);
+    user-select: none;
+}
+
+.sidebar ul a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 20px;
+    color: rgb(255, 204, 204);
+    padding-left: 40px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid black;
+    transition: .4s;
+}
+
+ul li:hover a {
+    padding-left: 50px;
+}
+
+.sidebar ul a i {
+    margin-right: 16px;
+}
+
+#check {
+    display: none;
+}
+
+label #btn,label #cancel {
+    position: fixed;
+    cursor: pointer;
+    background-color: rgb(74, 0, 0);
+    border-radius: 3px;
+}
+
+.background {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.showsfeats {
+    z-index: -1;
+    height: 19em;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 204, 204);
+    display: flex;
+    font-size: 5em;
+    text-shadow: -1px 1px 2px #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+
+.month-header {
+    background-color: rgb(74, 0, 0);
+    color: rgb(255, 204, 204);
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgb(74,0,0) 40%);
+    align-items: flex-end;
+    border: 3px solid black;
+}
+
+.flexbox-container {
+    border-left: 900px solid black;
+}
+
+/* /* img {
+    /* width: 1200px;
+}  */
+
+.main-section-conatiner {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(74, 0, 0);
+    color: rgb(255, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.flexbox-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 3em;
+}
+
+button {
+    color: rgb(255, 204, 204);
+    background-color: black;
+    width: 1800px;
+    height: 10%;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+h2 {
+    font-size: 2em;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+h3,h4 {
+    font-size: 1em;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: rgb(255, 204, 204);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-around;
+    font-size: 1em;
+    width: 30%;
+}
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.8em;
+    width: 35%;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}
+
+
+
+
+/* section {
+    background: url(bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+} 
+
+label #btn {
+    left: 40px;
+    top: 25px;
+    font-size: 35px;
+    color: rgb(204, 242, 255);
+    padding: 6px 12px;
+}
+
+label #cancel {
+    z-index: 1111;
+    left: 195px;
+    top: 17px;
+    font-size: 30px;
+    color: red;
+    padding: 4px 9px;
+}
+
+#check:checked ~ .sidebar {
+    left: 0;
+} */
+
